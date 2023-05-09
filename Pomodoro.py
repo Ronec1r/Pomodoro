@@ -21,7 +21,7 @@ class MainApp(App):
         #labels
         legenda_estudos=Label(text="Estudo : "+str(relogio_1.get_horas_estudo()),font_size=15)
         legenda_descanso=Label(text="Descanso : "+str(relogio_1.get_horas_descanso()),font_size=15)
-        legenda_relogio=Label(text=relogio_1.get_horas_extenso,size_hint=(1,1),padding=(1,1),font_size=90)
+        legenda_relogio=Label(text=relogio_1.get_horas_extenso(),size_hint=(1,1),padding=(1,1),font_size=90)
         #Adição dos widgtes
         box_botoes.add_widget(botao_inicio)
         box_botoes.add_widget(botao_zerar)
